@@ -1,12 +1,20 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class test : MonoBehaviour
+public class Test : MonoBehaviour
 {
-	private void Start()
-	{
-		Debug.Log("main");
-		Debug.Log("test");
-	}
+	[SerializeField]
+	Dictionary<string,int> n;
+
+	//private void Start()
+	//{
+
+		//n["a"] = 0;
+		//GetN("a");
+	//}
+
+	//int GetN(string str)
+	//{
+		//return n[str];
+	//}
 }

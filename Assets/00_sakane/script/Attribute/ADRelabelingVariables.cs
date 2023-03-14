@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 
+// ラベルのみを変更するクラス
 [CustomPropertyDrawer(typeof(ARelabelingVariables))]
 public class ADRelabelingVariables : PropertyDrawer
 {

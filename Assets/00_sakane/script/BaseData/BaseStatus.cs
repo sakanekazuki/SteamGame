@@ -9,4 +9,7 @@ public class BaseStatus : BaseData
 
 	public int defence = 0;
 	public int Defence { get => defence; set => defence = value; }
+
+	public int speed = 0;
+	public int Speed { get => speed; set => speed = value; }
 }
